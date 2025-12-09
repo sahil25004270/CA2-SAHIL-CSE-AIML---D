@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Student Portfolio</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+ 
+  <header>
+    <div class="container navbar">
+      <a class="brand" href="index.html">
+        <img src="profile-img.png" alt="Profile photo of Sahil" heiht="60px" width="60px">
+        <span class="name">Sahil</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  
+  <main class="container">
+    <section class="section form-wrapper">
+      <h2>Contact me</h2>
+     
+      <form action="#" method="post">
+       
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input class="input" type="text" id="name" name="name" placeholder="Your full name" required />
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input class="input" type="email" id="email" name="email" placeholder="your@email.com" required />
+        </div>
+
+      
+        <div class="form-row">
+          <label for="subject">Subject</label>
+          <input class="input" type="text" id="subject" name="subject" placeholder="Message subject" required />
+        </div>
+
+       
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea class="textarea" id="message" name="message" placeholder="Write your message..." required></textarea>
+        </div>
+
+        
+        <button type="submit" class="button">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  
+  <footer class="container">
+    <p>© 2025 Sahil. All rights reserved.</p>
+  </footer>
+</body>
+</html>
